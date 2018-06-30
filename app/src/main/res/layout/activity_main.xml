@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+android:orientation="vertical">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="1. How long is an IPv6 address?"
+    />
+
+<RadioGroup
+    android:id="@+id/question1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <RadioButton
+        android:id="@+id/question1a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="32 bits"
+        />
+
+    <RadioButton
+        android:id="@+id/question1b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="128bits"
+        />
+
+    <RadioButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="128bytes
+         android:id="@+id/question1c"
+"
+        />
+
+    <RadioButton
+        android:id="@+id/question1d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="64bits"
+        />
+
+</RadioGroup>
+
+<TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="1. How long is an IPv6 address?"
+    />
+<CheckBox
+    android:id="@+id/question2a"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Standard"/>
+
+
+
+    <CheckBox
+        android:id="@+id/question2b"
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="IEEE"/>
+
+<CheckBox
+    android:id="@+id/question2c"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="extended"
+    />
+
+<CheckBox
+    android:id="@+id/question2c"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Specialized"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="What command is used to create a backup configuration?"/>
+    <EditText
+        android:id="@+id/question3"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Which WLAN IEEE specification allows up to 54Mbps at 2.4GHz?" />
+<RadioGroup
+    android:id="@+id/question4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <RadioButton
+        android:id="@+id/question4a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        />
+
+    <RadioButton
+        android:id="@+id/question4b"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B"
+        />
+
+    <RadioButton
+        android:id="@+id/question4c"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G" />
+
+    <RadioButton
+        android:id="@+id/question4d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. To back up an IOS, what command will you use?"
+        />
+
+    <RadioGroup
+        android:id="@+id/question5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/question5a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="backup IOS disk"
+            />
+
+        <RadioButton
+            android:id="@+id/question5b"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="copy ios tftp"
+            />
+
+        <RadioButton
+            android:id="@+id/question5c"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="copy tftp flash"
+            />
+        <RadioButton
+            android:id="@+id/question5d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="copy flash tftp"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:onClick="submitAnswer"/>
+
+
+
+</RadioGroup>
+
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
